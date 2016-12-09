@@ -1,7 +1,1 @@
-
-.gitignore
-.idea/jsAnimation.iml
-.idea/markdown-navigator/
-.idea/misc.xml
-.idea/modules.xml
-.idea/workspace.xml
+.idea

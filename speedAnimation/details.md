@@ -1,7 +1,7 @@
 1、setInterval设置定时器<br>setInterval(function(){</br>//内容</br>},30)<br>
 clearInterval()清除定时器timer。timer也就是上述函数。timer=set...<br>
 方法开始的时候就清除一下timer。因为如果不清除的话，每一次鼠标事件都会触发timer，动画效果受影响。比如，后续变大速度有问题。
-<br><br>
+一句话，以防定时器叠加。<br><br>
 2、offsetLeft与style.left的区别<br>
 offsetLeft 获取的是相对于父对象的左边距;<br>
 left 获取或设置相对于 具有定位属性(position定义为relative)的父对象的左边距<br>
